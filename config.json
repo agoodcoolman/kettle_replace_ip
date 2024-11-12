@@ -1,0 +1,35 @@
+{
+    "names":
+        [
+            {
+                "old":"sqlserver",
+                "new":"sqlserver"
+            }
+        ],
+    "details":
+        [
+            {
+                "old":
+                    {
+                        "server": "10.100.100.100",
+                        "type": "MSSQLNATIVE",
+                        "access": "Native",
+                        "database": "shujukuming",
+                        "port": "1433",
+                        "username": "sa",
+                        "password": "Encrypted 这里可以看你的kettle脚本的密码"
+                    },
+                "new":
+                    {
+                        "server": "100.100.100.100",
+                        "type": "",
+                        "access": "Native",
+                        "database": "",
+                        "port": "1433",
+                        "username": "sa",
+                        "password": "Encrypted "
+                    }
+            }
+
+        ]
+}
